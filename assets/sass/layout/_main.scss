@@ -1,0 +1,93 @@
+.main {
+    margin: 0.5em;
+
+    &__left {
+        border: 1px solid $sable;
+        padding: 1em;
+    
+        &__card {
+        border: 1px solid $gray;
+        padding: .4em;
+        font-family: $poppins;
+
+            &:first-child {
+                margin-bottom: .5em;
+            }
+        }
+
+        &__img {
+            width: 100%;
+            height: auto;
+        }
+
+        &__title {
+        font-size: $medium;
+        padding: .3em 0;
+        }
+
+        &__text {
+        font-size: $x-small;
+        }
+
+        &__name {
+        font-size: $small;
+        padding-top: .3em;
+        }
+
+        &__icon {
+        font-size: $x-small;
+        }
+    }
+
+    &__right { 
+        width: 100%;
+        border: 1px solid $sable;
+        padding: 1em;
+        text-align: center;
+
+        &__card {
+            padding: .4em;
+            font-family: $poppins;
+        }
+
+        &__img {
+            width: 25%;
+            border: 1px solid $sable;
+            border-radius: 50%;
+            margin: 0 auto;
+        }
+
+        &__head {
+            font-size: $medium;
+        }
+
+        &__title {
+            font-size: $medium;
+            background-color: $dark-gray;
+            color: $white;
+        }
+        &__text, &__list {
+            padding-top: 1em;
+            font-size: $x-small;
+            text-align: left;
+        }
+
+        &__list {
+            
+            padding-left: 1.8em;
+            list-style: circle;
+        }
+
+        &__svg {
+            width: 30%;
+            padding-top: 2em;  
+        }
+    }
+}
+
+@media (max-width: 768px) {
+
+    .main__right__svg {
+        width: 60%;
+    }
+}

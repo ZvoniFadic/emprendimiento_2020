@@ -1,0 +1,19 @@
+@keyframes move {
+    0% {transform: translate(150px,0)}
+    100% {transform: translate(0,0)}
+}
+
+#parentesis {
+    animation: move 1.9s linear infinite alternate;
+}
+
+@keyframes loop {
+    100% {transform: rotate(1turn)}
+    
+}
+
+#engranaje {
+    animation: loop 3s linear infinite;
+    transform-origin: 79% 79%;
+}
+
