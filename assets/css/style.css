@@ -473,7 +473,7 @@ input:checked ~ .navigation__container {
   list-style: circle;
 }
 .main__right__svg {
-  width: 30%;
+  width: 35%;
   padding-top: 2em;
 }
 
