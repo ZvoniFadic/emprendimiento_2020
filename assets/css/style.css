@@ -478,8 +478,34 @@ input:checked ~ .navigation__container {
 }
 
 @media (max-width: 768px) {
+  .main__left__title {
+    font-size: 20px;
+    line-height: 2.3em;
+  }
+  .main__left__text {
+    font-size: 14px;
+    text-align: justify;
+  }
+  .main__left__name {
+    font-size: 16px;
+  }
+  .main__left__icon {
+    font-size: 16px;
+  }
+
+  .main__right__head {
+    font-size: 20px;
+  }
+  .main__right__text {
+    font-size: 14px;
+    line-height: 2em;
+    text-align: justify;
+  }
   .main__right__svg {
-    width: 60%;
+    width: 70%;
+  }
+  .main__right__img {
+    width: 70%;
   }
 }
 .footer {

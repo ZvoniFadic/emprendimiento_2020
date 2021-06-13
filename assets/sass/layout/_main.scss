@@ -87,7 +87,45 @@
 
 @media (max-width: 768px) {
 
-    .main__right__svg {
-        width: 60%;
+    .main__left {
+
+        &__title {
+            font-size: $large;
+            line-height: 2.3em;
+        }
+
+        &__text {
+            font-size: $small;
+            text-align: justify;
+        }
+
+        &__name {
+            font-size: $medium;
+        }
+
+        &__icon {
+            font-size: $medium;
+        }
+    }
+
+    .main__right {
+
+        &__head {
+            font-size: $large;
+        }
+
+        &__text {
+            font-size: $small;
+            line-height: 2em;
+            text-align: justify;
+        }
+
+        &__svg {
+            width: 70%;
+        }
+
+        &__img {
+            width: 70%;
+        }
     }
 }
